@@ -38,5 +38,6 @@ class Server extends EventEmitter {
 }
 
 export default function init(client: EventEmitter) {
+  console.info('Server listening');
   return new Server(client);
 }
