@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@types/node": "^14.11.1"
+  }
+}
